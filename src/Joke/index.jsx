@@ -5,6 +5,8 @@ export const Joke = ({ useAvatar, userName, text, likes, dislikes }) => {
   const [upLikes, setUpLikes] = useState(likes);
   const [downLikes, setDownLikes] = useState(dislikes);
 
+  console.log('test');
+
   return (
     <div className="joke">
       <div className="joke__body">
